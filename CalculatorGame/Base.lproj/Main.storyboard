@@ -83,13 +83,24 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Emperor_moH"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s20-vz-2Ja">
+                                <rect key="frame" x="181" y="491" width="58" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Clear"/>
+                                <connections>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rN3-wr-S3U"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s20-vz-2Ja" secondAttribute="trailing" constant="175" id="5nR-e2-oO2"/>
+                            <constraint firstItem="s20-vz-2Ja" firstAttribute="top" secondItem="ckz-zH-l2V" secondAttribute="bottom" constant="56" id="Boj-I9-mNi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ckz-zH-l2V" secondAttribute="trailing" constant="50" id="Bs0-O8-Sy3"/>
                             <constraint firstItem="20f-If-xLF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="119" id="Czf-ae-1Ol"/>
                             <constraint firstItem="ckz-zH-l2V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="RB4-4e-2e6"/>
+                            <constraint firstItem="s20-vz-2Ja" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tk7-wm-eru"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GTA-b5-6zx" secondAttribute="bottom" constant="24" id="TrT-BP-I8X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GTA-b5-6zx" secondAttribute="trailing" constant="25" id="UBU-nl-yTf"/>
                             <constraint firstItem="20f-If-xLF" firstAttribute="top" secondItem="Ppk-OJ-Yp4" secondAttribute="bottom" constant="38" id="Wap-bF-wBc"/>

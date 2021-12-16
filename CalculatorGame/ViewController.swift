@@ -21,7 +21,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    @IBAction func clearButton(_ sender: UIButton) {
+        firstTextField.text = ""
+        secondTextField.text = ""
+        resultLabel.text = ""
+    }
+    
     @IBAction func additionBtn(_ sender: UIButton) {
         calculateIt(task: "Addition")
     }
